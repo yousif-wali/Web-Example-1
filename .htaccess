@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule ^Home ./index.php
+RewriteRule ^Login ./pages/Login.php
+RewriteRule ^Signup ./pages/Signup.php
+RewriteRule ^Event ./pages/Event.php
+RewriteRule ^Post ./pages/Post.php
+RewriteRule ^Contact ./pages/Contact.php
+RewriteRule ^Logout ./include/validator.php?logout=true
